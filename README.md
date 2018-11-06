@@ -2,7 +2,7 @@
 
 In the Project Users Can add and delete a todo Event by just one click. And also he/she Can Check the events when they have completed and also they can see the counter of Total Events and Unchecked(Uncompleted) Events.
 
-## Procedure How I have created the App
+## Creation of Application
 
 I have Created this application using "create-react-app" 
 
