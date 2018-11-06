@@ -6,6 +6,7 @@ const textField = () => {
         <input type='text' 
                 name='todo-textfield' 
                 className="TextField"
+                placeholder="Enter event"
                  />
     );
 }
