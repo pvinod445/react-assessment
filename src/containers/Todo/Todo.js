@@ -42,7 +42,7 @@ class Todo extends Component {
         }
       });
       let resultedArray = this.state.totalListArray.filter(function(item) {
-        if(item.key == id && item.isChecked) {
+        if(item.key === id && item.isChecked) {
           checkedQty = checkedQty - 1;
         }  
         return (item.key !== id)
@@ -58,12 +58,12 @@ class Todo extends Component {
         if(item.key!==id) {
           Current.push(item);
         }
-        if(item.key == id && item.isChecked === false) {
+        if(item.key === id && item.isChecked === false) {
           item.isChecked = true;
           checkedQty = checkedQty + 1;
           Current.push(item);
         }  
-        else if(item.key == id && item.isChecked) {
+        else if(item.key === id && item.isChecked) {
           item.isChecked = false;
           checkedQty = checkedQty - 1;
           Current.push(item);
